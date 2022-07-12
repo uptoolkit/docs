@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkup_docs=self.webpackChunkup_docs||[]).push([[247],{1845:o=>{o.exports=JSON.parse('{"permalink":"/docs/blog/tags/opinionated","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
