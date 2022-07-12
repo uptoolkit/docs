@@ -27,6 +27,7 @@ Database : MongoDB, MySql/MariaDB, Postgresql
 Api : GraphQL, Rest
 IDE : VsCode, IntelliJ
 CSS : PostCSS, Sass
+CMS: Strapi, Wordpress
 
 ## Core agnostic packages that you might always need
 
