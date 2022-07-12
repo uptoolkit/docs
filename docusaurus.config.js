@@ -8,9 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Up Toolkit',
   tagline: 'Upinionated web toolkits for changemakers',
-  url: 'https://uptoolkit.github.io/',
+  url: 'https://uptoolkit.github.io',
   baseUrl: '/docs/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
 
@@ -34,6 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [require('mdx-mermaid')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -71,11 +72,11 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'conventions/Default',
             position: 'left',
             label: 'Specifications',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /*{to: '/blog', label: 'Blog', position: 'left'},*/
           {
             href: 'https://github.com/uptoolkit/docs',
             label: 'GitHub',
@@ -90,8 +91,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentation',
+                to: '/docs/docs/intro',
               },
             ],
           },
