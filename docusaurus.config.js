@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Up Toolkit',
   tagline: 'Upinionated web toolkits for changemakers',
-  url: 'https://uptoolkit.com',
-  baseUrl: '/',
+  url: 'https://uptoolkit.github.io/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
