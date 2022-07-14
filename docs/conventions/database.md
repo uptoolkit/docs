@@ -8,9 +8,7 @@ Every templates come with a very opinionated database structure that you cannot 
 
 ## Users table
 
-Every toolkit have a concept of user.
-
-Structure : 
+Every toolkit have a concept of user with this default structure :
 
 ```mermaid
 erDiagram
@@ -56,8 +54,6 @@ Users:
 - id: reference (could be an integer or uid)
 - name: full name of the user
 - password: password of the user
-- last_name : last name of the user
-- first_name : first name of the user
 - email_verified_at
 - language : the current user language in iso format
 - created_at : created at time in YYYY-mm-dd H:i:s format
@@ -65,6 +61,8 @@ Users:
 
 Not mandatory but normalised
 - image : the picture of the user (in a string format and full path)
+- last_name : last name of the user
+- first_name : first name of the user
 
 
 
