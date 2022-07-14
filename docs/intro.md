@@ -12,13 +12,14 @@ Get started by **creating a new site** so you will learn the basic and the main 
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
+- [Node.js](https://nodejs.org/en/download/) version 16.14 or above. (We highly encourage you to install NVM https://github.com/nvm-sh/nvm#installing-and-updating)
 - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ## Using one of our boilerplate
 
 You can use one of our boilerplate to start your project. We recommend using a Jam Stack approach and separe the
-back-end API part from the Front-end part when you might need to scale in the future.
+back-end (API, data) part from the Front-end (view, html) part when you might need to scale in the future.
 
 Here is a small schema that might help you to pick the right decision :
 
@@ -54,17 +55,24 @@ flowchart TB
     - [Laravel + Tailwind + Inertia (React/Vue)](https://github.com/uptoolkit/upback-laravel)
     - [Adonis.js](https://github.com/uptoolkit/upback-adonis)
     - [Django](https://github.com/uptoolkit/upback-django)
+    - [Rails](https://github.com/uptoolkit/upfull-rails)
 
 ## Start your app
 
 You must read the installation guide in each Readme.md and also the documentation related to the Framework choosed.
 
-Most of the projects have the same modus operandi :
+But most of the projects have the same standard modus operandi :
 
 ```bash
 cd my-website
 npm install
 npm run dev
+```
+
+or a standardized Docker setup : 
+
+```bash
+docker-composer up
 ```
 
 The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site,
