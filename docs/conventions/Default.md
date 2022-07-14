@@ -6,13 +6,17 @@ sidebar_position: 1
 
 As said in the prologue, we have a very opinionated approach of the development.
 
-## Which programmation to choose ?
+## Which programmation language to choose ?
 
-By default and unless you know a programmation language where you feel comfortable you should choose Javascript/Typescript and NodeJS as primary language of choice. 
+By default and unless you know a programmation language where you feel comfortable you should choose Javascript/Typescript and NodeJS as primary language of choice.
 
-Every web developers in any kind of programmation language have to write often in javascript. 
+Every web developers in any kind of programmation language have to write often in Javascript. 
 
-This is of course a suggestion and a matter of taste and use case... The programmation language is not a religion it would be stupid to say that you have better french, italian, english, german scientists.  Please don't be an extremist jerk thinking that a language is better than another... It's a matter of taste and knowledges and you can't judge a book by it's cover and most programmation language have now almost the same functionnalities like typing, interface etc.
+This is of course a suggestion and a matter of taste and use case... 
+
+The programmation language is not a religion it would be stupid to say that you have better french, italian, english, german scientists. Please don't be an extremist jerk thinking that a language is better than another... It's a matter of taste and knowledges and you can't judge a book by it's cover and most programmation language have now almost the same functionnalities like typing, interface etc.
+
+At the end of the journey, just choose a language where you are comfortable with, you can even compile Python using WebAssembly for the Javascript if you want too.
 
 ## Which kind of frameworks to use ?
 
