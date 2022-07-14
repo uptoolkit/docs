@@ -14,21 +14,44 @@ Structure :
 
 ```mermaid
 erDiagram
-    CAR ||--o{ NAMED-DRIVER : allows
-    CAR {
-        string allowedDriver FK "The license of the allowed driver"
-        string registrationNumber
-        string make
-        string model
-    }
-    PERSON ||--o{ NAMED-DRIVER : is
-    PERSON {
-        string driversLicense PK "The license #"
-        string firstName
-        string lastName
-        int age
-    }
+  User ||--|{ Account : ""
+  User {
+  string id
+  string name
+  string email
+  timestamp emailVerified
+  string image
+  }
+  User ||--|{ Session : ""
+  Session {
+  string id
+  timestamp expires
+  string sessionToken
+  string userId
+  }
+  Account {
+  string id
+  string userId
+  string type
+  string provider
+  string providerAccountId
+  string refresh_token
+  string access_token
+  int expires_at
+  string token_type
+  string scope
+  string id_token
+  string session_state
+  string oauth_token_secret
+  string oauth_token
+  }
+  VerificationToken {
+  string identifier
+  string token
+  timestamp expires
+  }
 ```
+
 Users:
 - id: reference (could be an integer or uid)
 - name: full name of the user
